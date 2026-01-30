@@ -1,0 +1,29 @@
+dataset: ALOI
+
+encoder_dim:
+  - [ 77, 1024, 1024, 1024, 128 ]
+  - [ 13, 1024, 1024, 1024, 128 ]
+  - [ 64, 1024, 1024, 1024, 128 ]
+  - [ 125, 1024, 1024, 1024, 128 ]
+
+n_classes: 100  
+n_views: 4
+drop_rate: 0.2
+mvrw_weights: [True, False]
+n_heads: 0
+# n_rw: 10
+# ratio_nodes: 0.7
+# knn4mvrw: True
+# n_neibs: 10
+
+batch_size: 1024
+momentum: 0.98
+temperature: 0.5
+epochs: 180
+
+blr: 5.0e-4
+weight_decay: 0
+
+data_path: /remote-home/TCCI17/code/mvdc-compare/DATAMAT/
+output_dir: results
+seed: 0

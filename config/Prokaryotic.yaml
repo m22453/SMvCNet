@@ -1,0 +1,28 @@
+dataset: Prokaryotic  # Prokaryotic
+
+encoder_dim: 
+  - [ 393, 256, 512, 1024, 64]
+  - [ 3, 256, 512, 1024, 64]
+  - [ 438, 256, 512, 1024, 64]
+
+n_classes: 4
+n_views: 3
+mvrw_weights: [True, False]
+n_heads: 0
+drop_rate: 0.5
+# n_rw: 10
+# n_steps: 5
+# ratio_nodes: 1.0
+knn4mvrw: True
+n_neibs: 20
+
+batch_size: 1024
+momentum: 0.98
+temperature: 0.5
+
+lr: 1.0e-4
+weight_decay: 0
+
+data_path: /remote-home/TCCI17/code/mvdc-compare/DATAMAT/
+output_dir: results
+seed: 100
