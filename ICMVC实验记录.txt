@@ -1,0 +1,106 @@
+uci
+batch = 128, gcnEncoder = 1024//8, seed = 2, lr=1.0e-3,
+
+                     ACC 88.95 std 0.00
+                     NMI 84.39 std 0.00 
+                     ARI 80.86 std 0.00
+batch = 128, gcnEncoder = 1024//8, seed = 2, lr=1.0e-3,
+                     ACC 66.25 std 0.00
+                     NMI 54.20 std 0.00 
+                     ARI 46.37 std 0.00
+batch = 128, gcnEncoder = 1024//8, seed = 2, lr=1.0e-4,
+                     ACC 71.85 std 0.00
+                     NMI 68.54 std 0.00 
+                     ARI 60.96 std 0.00
+batch = 128, gcnEncoder = 1024//8, seed = 2, lr=1.0e-2,
+                     ACC 70.50 std 0.00
+                     NMI 57.66 std 0.00 
+                     ARI 51.10 std 0.00
+
+
+Scene15
+batch = 128, gcnEncoder = 1024//2, seed = 2, lr=1.0e-3,
+
+                     ACC 42.76 std 0.00
+                     NMI 41.93 std 0.00 
+                     ARI 24.87 std 0.00
+batch = 64, gcnEncoder = 1024//2, seed = 2, lr=1.0e-3,
+                     ACC 42.76 std 0.00
+                     NMI 41.93 std 0.00 
+                     ARI 24.87 std 0.00
+batch = 128, gcnEncoder = 1024//4, seed = 2, lr=1.0e-3,
+                     ACC 42.76 std 0.00
+                     NMI 41.93 std 0.00 
+                     ARI 24.87 std 0.00
+batch = 128, gcnEncoder = 1024//8, seed = 2, lr=1.0e-3,
+                     ACC 42.76 std 0.00
+                     NMI 41.93 std 0.00 
+                     ARI 24.87 std 0.00
+batch = 128, gcnEncoder = 1024//4, seed = 2, lr=1.0e-2,
+                     ACC 42.07 std 0.00
+                     NMI 41.87 std 0.00 
+                     ARI 24.90 std 0.00
+batch = 128, gcnEncoder = 1024//2, seed = 2, lr=1.0e-3,tok = 15
+                     ACC 42.76 std 0.00
+                     NMI 41.93 std 0.00 
+                     ARI 24.87 std 0.00
+batch = 128, gcnEncoder = 1024//2, seed = 2, lr=1.0e-3,tok = 25
+                     ACC 40.96 std 0.00
+                     NMI 40.44 std 0.00 
+                     ARI 22.97 std 0.00
+
+Yale(165)
+batch = 128, gcnEncoder = 1024//8, seed = 3, lr=1.0e-3,
+                     ACC 42.06 std 1.90
+                     NMI 53.84 std 2.00 
+                     ARI 31.84 std 2.07
+batch = 64, gcnEncoder = 1024//8, seed = 3, lr=1.0e-3,
+                     ACC 41.82 std 0.00
+                     NMI 55.09 std 0.00 
+                     ARI 33.42 std 0.00
+batch = 64, gcnEncoder = 1024//2, seed = 3, lr=1.0e-3,
+                     ACC 44.24 std 0.00
+                     NMI 58.39 std 0.00 
+                     ARI 35.98 std 0.00
+batch = 64, gcnEncoder = 1024//4, seed = 3, lr=1.0e-3,
+                     ACC 44.24 std 0.00
+                     NMI 58.39 std 0.00 
+                     ARI 35.98 std 0.00
+batch = 64, gcnEncoder = 1024//4, seed = 3, lr=1.0e-4,
+                     ACC 40.61 std 0.00
+                     NMI 52.15 std 0.00 
+                     ARI 30.54 std 0.00
+batch = 64, gcnEncoder = 1024//4, seed = 3, lr=1.0e-2,
+
+                     ACC 45.45 std 0.00
+                     NMI 58.48 std 0.00 
+                     ARI 35.74 std 0.00
+
+Prokaryotic
+batch = 128, gcnEncoder = 1024//2, seed = 3, lr=1.0e-3,
+                     ACC 46.64 std 0.00
+                     NMI 20.89 std 0.00 
+                     ARI 14.28 std 0.00
+batch = 128, gcnEncoder = 1024//4, seed = 3, lr=1.0e-3,
+
+                     ACC 50.09 std 0.00
+                     NMI 26.64 std 0.00 
+                     ARI 15.88 std 0.00
+ALOI
+batch = 512, gcnEncoder = 1024//8, seed = 2, lr=1.0e-3,
+                     ACC 42.40 std 0.00
+                     NMI 64.53 std 0.00 
+                     ARI 11.97 std 0.00
+batch = 512, gcnEncoder = 1024//4, seed = 2, lr=1.0e-3,
+
+                     ACC 46.65 std 0.00
+                     NMI 66.87 std 0.00 
+                     ARI 9.32 std 0.00
+batch = 512, gcnEncoder = 1024//8, seed = 2, lr=1.0e-4,
+                     ACC 31.67 std 0.00
+                     NMI 57.51 std 0.00 
+                     ARI 19.46 std 0.00
+batch = 512, gcnEncoder = 1024//8, seed = 2, lr=1.0e-5,
+                     ACC 22.81 std 0.00
+                     NMI 47.15 std 0.00 
+                     ARI 11.59 std 0.00
